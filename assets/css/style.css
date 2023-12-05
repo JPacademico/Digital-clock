@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
+
+body{
+    height: 100vh;
+    background: rgb(238,174,202);
+    background: linear-gradient(120deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.clock{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    height: 100px;
+    width: 300px;
+    border-radius: 12px;
+}
+
+.clock div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.clock .tempo{
+    font-size: 15px;
+}
+
+#horas, #minutos, #segundos{
+    font-size: 50px;
+}
